@@ -1,0 +1,17 @@
+{
+  "selected_model": "Random Forest",
+  "rule": "maximum mean training-only 5-fold macro-F1",
+  "selected_before_test_utc": "2026-10-22T10:26:08.845091+00:00",
+  "model_order_for_ties": [
+    "Dummy majority",
+    "Logistic Regression",
+    "kNN",
+    "Random Forest"
+  ],
+  "hyperparameters": {
+    "Dummy majority": "DummyClassifier(random_state=42, strategy='most_frequent')",
+    "Logistic Regression": "Pipeline(steps=[('standardscaler', StandardScaler()),\n                ('logisticregression',\n                 LogisticRegression(max_iter=3000, random_state=42))])",
+    "kNN": "Pipeline(steps=[('standardscaler', StandardScaler()),\n                ('kneighborsclassifier', KNeighborsClassifier())])",
+    "Random Forest": "RandomForestClassifier(n_estimators=300, n_jobs=1, random_state=42)"
+  }
+}

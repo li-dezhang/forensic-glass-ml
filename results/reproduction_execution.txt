@@ -1,0 +1,12 @@
+Verified cached official source hashes
+              model  cv_macro_f1_mean  cv_macro_f1_std  accuracy  macro_f1  balanced_accuracy  test_n  selected_by_cv
+     Dummy majority          0.087932         0.002841  0.351852  0.086758           0.166667      54           False
+Logistic Regression          0.471704         0.042164  0.685185  0.670234           0.716374      54           False
+                kNN          0.483893         0.116902  0.740741  0.608761           0.610746      54           False
+      Random Forest          0.725478         0.053976  0.777778  0.758511           0.769128      54            True
+Selected on training CV: Random Forest
+ threshold  test_n  accepted_n  correct_accepted_n  coverage  selective_accuracy  review_required_count  correct_automated_fraction_all
+       0.5      54          43                  38  0.796296            0.883721                     11                        0.703704
+       0.6      54          33                  32  0.611111            0.969697                     21                        0.592593
+       0.7      54          26                  25  0.481481            0.961538                     28                        0.462963
+       0.8      54          18                  17  0.333333            0.944444                     36                        0.314815

@@ -1,0 +1,25 @@
+split,class_code,class_name,count
+raw,1,Building windows: float,70
+raw,2,Building windows: non-float,76
+raw,3,Vehicle windows: float,17
+raw,5,Containers,13
+raw,6,Tableware,9
+raw,7,Headlamps,29
+deduplicated,1,Building windows: float,69
+deduplicated,2,Building windows: non-float,76
+deduplicated,3,Vehicle windows: float,17
+deduplicated,5,Containers,13
+deduplicated,6,Tableware,9
+deduplicated,7,Headlamps,29
+train,1,Building windows: float,51
+train,2,Building windows: non-float,57
+train,3,Vehicle windows: float,13
+train,5,Containers,10
+train,6,Tableware,7
+train,7,Headlamps,21
+test,1,Building windows: float,18
+test,2,Building windows: non-float,19
+test,3,Vehicle windows: float,4
+test,5,Containers,3
+test,6,Tableware,2
+test,7,Headlamps,8

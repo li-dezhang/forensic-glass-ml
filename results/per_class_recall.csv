@@ -1,0 +1,25 @@
+model,class_code,class_name,test_support,recall
+Dummy majority,1,Building windows: float,18,0.0
+Dummy majority,2,Building windows: non-float,19,1.0
+Dummy majority,3,Vehicle windows: float,4,0.0
+Dummy majority,5,Containers,3,0.0
+Dummy majority,6,Tableware,2,0.0
+Dummy majority,7,Headlamps,8,0.0
+Logistic Regression,1,Building windows: float,18,0.6666666666666666
+Logistic Regression,2,Building windows: non-float,19,0.631578947368421
+Logistic Regression,3,Vehicle windows: float,4,0.0
+Logistic Regression,5,Containers,3,1.0
+Logistic Regression,6,Tableware,2,1.0
+Logistic Regression,7,Headlamps,8,1.0
+kNN,1,Building windows: float,18,0.8333333333333334
+kNN,2,Building windows: non-float,19,0.7894736842105263
+kNN,3,Vehicle windows: float,4,0.0
+kNN,5,Containers,3,0.6666666666666666
+kNN,6,Tableware,2,0.5
+kNN,7,Headlamps,8,0.875
+Random Forest,1,Building windows: float,18,0.8888888888888888
+Random Forest,2,Building windows: non-float,19,0.6842105263157895
+Random Forest,3,Vehicle windows: float,4,0.5
+Random Forest,5,Containers,3,0.6666666666666666
+Random Forest,6,Tableware,2,1.0
+Random Forest,7,Headlamps,8,0.875

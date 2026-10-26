@@ -1,0 +1,12 @@
+name,role,type,demographic,description,units,missing_values
+Id_number,ID,Integer,,,,no
+RI,Feature,Continuous,,refractive index,,no
+Na,Feature,Continuous,,Sodium,weight percent in corresponding oxide,no
+Mg,Feature,Continuous,,Magnesium,weight percent in corresponding oxide,no
+Al,Feature,Continuous,,Aluminum,weight percent in corresponding oxide,no
+Si,Feature,Continuous,,Silicon,weight percent in corresponding oxide,no
+K,Feature,Continuous,,Potassium,weight percent in corresponding oxide,no
+Ca,Feature,Continuous,,Calcium,weight percent in corresponding oxide,no
+Ba,Feature,Continuous,,Barium,weight percent in corresponding oxide,no
+Fe,Feature,Continuous,,Iron,weight percent in corresponding oxide,no
+Type_of_glass,Target,Categorical,,,,no

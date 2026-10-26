@@ -1,0 +1,22 @@
+{
+  "source": "https://archive.ics.uci.edu/dataset/42/glass+identification",
+  "citation": "German, B. (1987). Glass Identification. UCI Machine Learning Repository. DOI:10.24432/C5WW2P",
+  "licence": "CC BY 4.0",
+  "download_method": "ucimlrepo.fetch_ucirepo(id=42)",
+  "data_url": "https://archive.ics.uci.edu/static/public/42/data.csv",
+  "downloaded_at_utc": "2026-10-22T10:12:00.667227+00:00",
+  "files": {
+    "glass.csv": {
+      "bytes": 11415,
+      "sha256": "c4677c97a86cc9f63c5756f13671a7a9ffb3f7dc3031524023deebcae75d14ad"
+    },
+    "uci_metadata.json": {
+      "bytes": 2519,
+      "sha256": "c1ac92d7152af1eccb0184be8a46d8fac63a1b10654cd7f1f1a29d11edf56fae"
+    },
+    "dictionary.csv": {
+      "bytes": 745,
+      "sha256": "3f45f6ad511c90bf6161fc01186d8bd6c2b6a0387ba461e08844e88d32d6da64"
+    }
+  }
+}

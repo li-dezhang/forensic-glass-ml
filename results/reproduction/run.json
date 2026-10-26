@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-10-22T10:16:02.218852+00:00",
+  "completed_models_utc": "2026-10-22T10:16:03.446186+00:00",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "python": "3.13.2",
+  "dependencies": {
+    "ucimlrepo": "0.0.7",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "random_state": 42,
+  "test_size": 0.25,
+  "cv_folds": 5,
+  "training_rows": 159,
+  "test_rows": 54,
+  "selected_model": "Random Forest",
+  "data_sha256": "c4677c97a86cc9f63c5756f13671a7a9ffb3f7dc3031524023deebcae75d14ad",
+  "source_sha256": "321b1f4d42030fb815617466ced7ee3c889e086c20079994c934a673930783e4",
+  "protocol_sha256": "5be5bc3d7b55b0cd27f815018ddc139d6d3a1956c9e936841fd777066d023eb4"
+}
